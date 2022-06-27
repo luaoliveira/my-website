@@ -1,0 +1,4 @@
+Currently working as Junior Data Scientist and studying a bachelor’s degree in Data Science in the Universidade Virtual de São Paulo.
+I have a physics degree and I was a student in a master’s program with emphasis in cosmology and radioastronomy for two years until
+I drop out and decided to change my career. I have been working as Junior Data scienstist for a start up for two months, dealing with
+forecasting using ARIMA models to predict time series data.

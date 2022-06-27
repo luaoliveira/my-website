@@ -1,0 +1,231 @@
+.mainSection{
+    margin-top: 3.5cm;
+    margin-left: 9cm;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+    right: 1cm;
+    background-color:#F3E9DD ;
+    right: 1cm;
+    height: 20cm ;
+    text-align: center;
+    
+}
+
+.wrapperContent{
+    
+    height: 15cm;
+    background-color: #FBF6EE;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-top: 1cm;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+}
+
+.body{
+    background-color: white;
+    overflow-y: scroll;
+}
+
+#summary{
+    width: 7.5cm;
+    background-color: #756954;
+    height: 15cm;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 1cm;
+    top: 3cm;
+    margin-top: 1cm;
+    position: absolute;
+    text-align: center;
+}
+
+.icons{
+    top: 4cm;
+    width: 40px;
+    border-left: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.icons:hover{
+    transform: scale(1.2);
+}
+
+#faceIcon{
+    right: 10cm;
+}
+
+.personalPages{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    top: 12px;
+    position:absolute;
+}
+
+.line{
+    background-color: #F3E9DD;
+    border: none;
+    height: 1px;
+}
+
+#headerLine{
+    position: relative;
+    top: 55px;
+}
+
+#footerLine{
+    margin-bottom: 1cm;
+    position: absolute;
+    bottom: 1cm;
+}
+
+#faceICon{
+
+}
+
+#summary{
+    
+    color: #251a10;
+    text-align: center;
+  
+    
+}
+
+#summaryText{
+
+    left: 5px;
+    margin-right: 10px;
+    top: 1cm;
+    right: 5px;
+    position: relative;
+    color: #F3E9DD;
+    text-align: center;
+    height: 10cm;
+    font-size: 15px;
+    font-family: serif ;
+
+}
+
+#personalImage{
+    width: 3cm;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+}
+
+.titles{
+    text-align: center;
+    color: #251a10;
+    -webkit-text-fill-color: #251a10;
+    -webkit-text-stroke-color: #DAB88B;
+    -webkit-text-stroke-width: 1.00px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#footer{
+    background-color: #F5F5F5 ;
+    height: 10cm;
+    width: 100%;
+    top: 0cm;
+    position: relative;
+    bottom: 0 cm;
+    margin-left: 0;
+    margin-right: 0;
+    right: 0cm;
+    left: 0;
+    text-align: center;
+    border-top: 1px solid #DAB88B;
+    -webkit-box-shadow: 0px -2px 3px #756954;
+    -moz-box-shadow: 0px -2px 3px #756954;
+    box-shadow: 0px -2px 3px #756954;
+    
+
+}
+
+#contactMe{
+
+    color: brown;
+}
+
+#inputMessage{
+    height: 3cm;
+    width: 10cm;
+    
+}
+
+#inputTitle{
+    width: 10cm;
+
+}
+#inputContact{
+    width: 10cm;
+  
+
+}
+
+.input{
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    color: black ;
+}
+
+.input:focus{
+    border-color: #251a10;
+}
+
+#form{
+    display: inline-block;
+    float: left;
+    clear: left;
+    text-align: left;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+
+.cvButtons{
+    border-radius:  10px 10px 10px 10px ;
+    border: none;
+    width: 6.5cm;
+    height: 1cm;
+    margin-left: 10px;
+    margin-top: 3px;
+    background-color: #756954;
+    -webkit-box-shadow: 0 8px 6px -6px #756954;
+	-moz-box-shadow: 0 8px 6px -6px #756954;
+	box-shadow: 0 8px 6px -6px #756954;
+    color: #F3E9DD;
+    font-family: sans-serif;
+    font-size: 17px;
+
+}
+
+.cvButtons:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #DCDCDC;
+}
+
+#chapeu{
+    width: 2cm;
+    margin-top: 1cm;
+    position: absolute;
+    right: 0;
+    top: 0 cm;
+   
+}
+
+#edText{
+    margin-left: 1cm;
+    padding: 20px;
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html scroll-behavior: smooth; overflow-y: svvvcroll;>
+<header>
+    <title> MyDraft</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="myscript.js"></script>
+</header>
+<body class="body">
+    <div class="personalPages">
+        <a href="https://github.com/luaoliveira"><img class="icons" id="githubIcon" src="githubIcon.png")/></a>
+        <a href="https://www.linkedin.com/in/luana-oliveira-77866a6a/"><img class="icons" id="linkedinIcon" src="linkedinIcon.png" /></a>
+        <a href="https://www.facebook.com/luana.oliver.9275"><img class="icons" id="faceIcon" src="fbIcon.png"/></a>
+        <a href="https://www.instagram.com/luaoliii/"><img class="icons" id="instagramIcon" src="instaIcon.png" /><a/>
+    </div>
+    <hr class="line" id="headerLine">
+    <div class="mainSection">
+        <button type="button" class="cvButtons" name="xpText" onclick="show(this);"> Experience</button>
+        <button type="button" class="cvButtons" name="edText" onclick="show(this);"> Education </button>
+        <button type="button" class="cvButtons" name="skText" onclick="show(this);"> Skills</button>
+        <button type="button" class="cvButtons" name="lgText" onclick="show(this);"> Languages</button>
+        <div class="wrapperContent" id="xpText">
+            fasd
+        </div>
+        <div class="wrapperContent" id="edText">
+            <img src="chapeu-toga.png" alt="" id="chapeu">
+            <p><b>Curretly-August 2021</b> - Junior Data Scientist, Operar Tecnologiabr <br>
+            Tasks</p>
+            <ul>
+                <li> Development of python applications</li>
+                <li> Automation of processes using Google Cloud Platform</li>
+                <li> Data prediction, treatment and analysis</li>
+                
+            </ul>
+        </div>
+        <div class="wrapperContent" id="skText">sk</div>
+        <div class="wrapperContent" id="lgText">lg</div>
+
+    </div>
+    <div id="summary">
+        <img id="personalImage" src="personalImage.jpeg" >
+        <div id="summaryText">
+            <p>
+                I am a Data Scientist and Physicist who loves hard sciences in general, but specially anything related to computer science and foreign cultures. Curretly on my second semester studying bachelor's degree in Data Science at
+                Universidade Virtual de São Paulo, I have professional experience with Data Science and Data Analytics and I have interest in Machine Learning and Data Engineering.
+            </p>
+            <p>
+                My main hobbies are playing video games, reading and learning new languages. I just love exploring foreign cultures as I think they are so interesting and different from my own.
+            </p>      
+        </div>
+    </div>
+        <hr class="line" id="footerLine">
+    <div id="footer">
+        <form name="formulario" id="form" onsubmit="return validate();">
+            <h2 id="contactMe"> Contato</h2>
+            <label > Título:</label><input class="input" type="text" name="Titulo" placeholder="Titulo da mensagem" id="inputTitle"/>
+            <label > Mensagem:</label><input class="input" type="text" name="Mensagem" placeholder="Mensagem" id="inputMessage">
+            <label > Contato:</label><input class="input" type="text" name="Contato" placeholder="Email" id="inputContact" >
+            <input type="submit" value="Enviar" onClick="validate();"
+        </form>
+    </div>
+
+    
+</body>
+</html>
