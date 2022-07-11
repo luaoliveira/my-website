@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-
-<html scroll-behavior: smooth; overflow-y: svvvcroll;>
-<header>
+<head>
+    <meta charset="utf-8" content="text/html">
     <title> MyDraft</title>
     <link rel="stylesheet" href="styles.css">
     <script src="myscript.js"></script>
-</header>
+    
+</head>
 <body class="body">
     <div class="personalPages">
         <a href="https://github.com/luaoliveira"><img class="icons" id="githubIcon" src="githubIcon.png")/></a>
@@ -19,47 +19,151 @@
         <button type="button" class="cvButtons" name="edText" onclick="show(this);"> Education </button>
         <button type="button" class="cvButtons" name="skText" onclick="show(this);"> Skills</button>
         <button type="button" class="cvButtons" name="lgText" onclick="show(this);"> Languages</button>
-        <div class="wrapperContent" id="xpText">
-            fasd
-        </div>
-        <div class="wrapperContent" id="edText">
-            <img src="chapeu-toga.png" alt="" id="chapeu">
-            <p><b>Curretly-August 2021</b> - Junior Data Scientist, Operar Tecnologiabr <br>
-            Tasks</p>
+        <div class="wrapperContent" id="xpText" style="display: block">
+
+            <h4><b>August 2021-Currently - Junior Data Scientist, Operar Tecnologia</b></h4>
+
+            <p><b>Activities</b></p>
             <ul>
-                <li> Development of python applications</li>
+                <li> Development of applications in python</li>
                 <li> Automation of processes using Google Cloud Platform</li>
                 <li> Data prediction, treatment and analysis</li>
-                
+                <li> Writting and editing queries </li>
+                <li> Documentation </li>
             </ul>
+
+            <p><b>Skills</b></p>
+
+            <p>Python (Numpy, Seaborn, Pandas, Matplotlib), Machine Learning(time series), Google Cloud Platform(Bigquery, Storage, Functions), SQL, Jira, Agile</p>
+
+    
+            <h4><b> February - June 2021 -  Data Analysis Intern, Zallpy Digital </b></h4>
+
+            <p><b>Activities</b></p>
+            <ul>
+                <li> Production of Dashboards and Reports using Tableau</li>
+                <li> Multidimensional Modeling </li>
+                <li> Documentation </li>
+            </ul>
+            <p><b>Skills</b></p>
+            <p>Tableau, SQL, Confluence, IBM DB2, Agile, Jira, English, AWS-Athena</p>
+
+            <h4><b> February 2018 - August 2021 -  Physics Teacher, Local Department for Education  </b></h4>
+            <ul>
+                <li>Teaching High School Students the subject of physics</li>
+                <li>Preparing virtual material to be used in online classes</li>
+            </ul>
+            <h4><b>July 2016 - May 2018 - Intern - Physics Teaching Laboratory</b></h4>
+            <ul>
+                <li>Analysis and qualification of materials using ultraviolet and visible spectroscopy</li>
+                <li>Study of adhesion and curing process of polymers (mainly resin and epoxy)</li>
+                <li>Production of reports</li>
+            </ul>
+            <h4><b>December 2013 - June 2015 - Undergraduate Researcher, National Council For Scientific and Technological Development</b></h4>
+            <p><b>Activities</b></p>
+            <ul>
+                <li>Analysis and qualification of resin and epoxy materials using ultraviolet and visible spectroscopy</li>
+                <li>Production of reports</li>
+                <li>Regression and interpolation</li>
+            </ul>
+
+            <p><b>Skills</b></p>
+
+            <p>Origin, Qtiplot </p>
         </div>
-        <div class="wrapperContent" id="skText">sk</div>
-        <div class="wrapperContent" id="lgText">lg</div>
+        <div class="wrapperContent" id="edText" style="display: none;">
+            <h4><b>Formal Education</b></h4>
+            <img src="chapeu-toga.png" alt="" id="chapeu">
+
+            <ul>
+                <li><b>2021 - currently Universidade Virtual de São Paulo</b></li>
+                <li><b>2018-2020 - Master's student (interrupted)</b></li>
+                <li><b>2012-2017 - Physics Degree,University of Brasilia</b></li>
+            </ul>
+
+            <h4><b>Extracurricular Activities</b></h4>
+
+            <ul>                
+                <li><b>2016 - Monitor of Introduction to computer science </b></li>
+                <li><b>2014 - Monitor of Methods for Experimental Physics</b> </li>
+                <li><b>2013 - Monitor of Calculus I</b></li>
+            </ul>
+            
+        </div>
+        <div class="wrapperContent" id="skText" style="display: none;">
+            <h4><b>Languages</b></h4>
+
+            <ul>
+                <li>Python: Numpy, matplotlib, seaborn, flask, statsmodels</li>
+                <li>Html5</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>R</li>
+                <li>Java</li>
+            </ul>
+
+            <h4><b>Database technologies</b></h4>
+            <ul>
+                <li>SQL</li>
+                <li>Bigquery</li>
+                <li>AWS-Athena</li>
+                <li>IBM DB2</li>
+                <li>Oracle</li>
+            </ul>
+
+            <h4><b>Cloud technologies</b></h4>
+            <ul>
+                <li>Google Cloud Platform: BigQuery, Storage, Functions</li>
+                <li>AWS: Athena, EC2</li>
+            </ul>
+        
+        
+        
+        </div>
+        <div class="wrapperContent" id="lgText" style="display: none;">
+            
+            <h4><b>Personal Evaluation</b></h4>
+
+            <div id="rightSquare">
+                <p><b>Portuguese</b></p>
+                <div class="bar"><div></div></div>
+                <p><b>English</b></p>
+                <div class="bar"><div></div></div>
+                <p><b>German</b></p>
+                <div class="bar"><div style="width: 60%;"></div></div>
+            </div>
+
+            <div id="leftSquare">
+                <p><b>Japanese</b></p>
+                <div class="bar"><div style="width: 40%;"></div></div>
+                <p><b>French</b></p>
+                <div class="bar"><div style="width: 20%;"></div></div>
+            </div>
+
+            <h4><b>Proficiency Certificates</b></h4>
+            <ul>
+                <li>TOEFL ITP B2 Certificate, 2013</li>
+                <li>Japanese Language Proficiency Test N5, 2021</li>
+            </ul>
+        
+        </div>
 
     </div>
     <div id="summary">
         <img id="personalImage" src="personalImage.jpeg" >
         <div id="summaryText">
             <p>
-                I am a Data Scientist and Physicist who loves hard sciences in general, but specially anything related to computer science and foreign cultures. Curretly on my second semester studying bachelor's degree in Data Science at
-                Universidade Virtual de São Paulo, I have professional experience with Data Science and Data Analytics and I have interest in Machine Learning and Data Engineering.
+                I am a Data Scientist and Physicist who loves hard sciences in general, but specially anything related to computer
+                science and foreign cultures. Going for my third semester studying for a bachelor's degree in Data Science at Universidade
+                Virtual de São Paulo, I have professional experience with Data Science, Data Analytics and teaching. I have interest in
+                working with machine learning algorithms, cloud technologies and data engineering.
             </p>
             <p>
-                My main hobbies are playing video games, reading and learning new languages. I just love exploring foreign cultures as I think they are so interesting and different from my own.
+                My main hobbies are playing video games, boardgames, reading and learning new languages. I also love going to the gym and hiking. 
             </p>      
         </div>
     </div>
         <hr class="line" id="footerLine">
-    <div id="footer">
-        <form name="formulario" id="form" onsubmit="return validate();">
-            <h2 id="contactMe"> Contato</h2>
-            <label > Título:</label><input class="input" type="text" name="Titulo" placeholder="Titulo da mensagem" id="inputTitle"/>
-            <label > Mensagem:</label><input class="input" type="text" name="Mensagem" placeholder="Mensagem" id="inputMessage">
-            <label > Contato:</label><input class="input" type="text" name="Contato" placeholder="Email" id="inputContact" >
-            <input type="submit" value="Enviar" onClick="validate();"
-        </form>
-    </div>
-
     
 </body>
 </html>

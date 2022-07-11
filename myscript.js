@@ -26,12 +26,14 @@ function validate(){
 
     if(document.formulario.Titulo.value==""
     || document.formulario.Mensagem.value==""
-    || document.formulario.Contato.value==""){
+    || document.formulario.Contato.value==""
+    || document.formulario.Nome.value==""){
         alert("Preencha todos os campos do formulário")
         return false;
     }
     else{
         if(document.formulario.Contato.value.match(emailFormat)){
+            alert("Mensagem enviada!")
             return true;
         }
         else{
