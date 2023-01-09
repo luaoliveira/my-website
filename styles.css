@@ -42,9 +42,10 @@
     text-align: center;
 }
 
-#projects{
+#tech_logos{
     width: 7.5cm;
-    background-color: #756954;
+    /**/
+    background-color: #F3E9DD;
     height: 500px;
     border-radius: 25px 25px 25px 25px;
     margin-left: 1cm;
@@ -304,4 +305,24 @@ ul {
     height: 250px;
     background-color: #F3E9DD;
     right: 0;
+}
+
+.framlogos{
+    border-top: 1px;
+    width: 25%;
+    margin-bottom: 1px;
+}
+
+.smallerlogo{
+    width: 50%;
+}
+
+.azurelogo{
+    width: 40%;
+}
+
+#projects_title{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 17px;
+    color: #756954;
 }
