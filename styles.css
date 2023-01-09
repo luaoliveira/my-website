@@ -5,7 +5,7 @@
     right: 1cm;
     background-color:#F3E9DD ;
     right: 1cm;
-    height: 30cm ;
+    height: 35cm ;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 3cm;
@@ -37,6 +37,19 @@
     border-radius: 25px 25px 25px 25px;
     margin-left: 1cm;
     top: 80px;
+    margin-top: 1cm;
+    position: absolute;
+    text-align: center;
+}
+
+#tech_logos{
+    width: 7.5cm;
+    /**/
+    background-color: #F3E9DD;
+    height: 500px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 1cm;
+    top: 610px;
     margin-top: 1cm;
     position: absolute;
     text-align: center;
@@ -292,4 +305,24 @@ ul {
     height: 250px;
     background-color: #F3E9DD;
     right: 0;
+}
+
+.framlogos{
+    border-top: 1px;
+    width: 25%;
+    margin-bottom: 1px;
+}
+
+.smallerlogo{
+    width: 50%;
+}
+
+.azurelogo{
+    width: 40%;
+}
+
+#projects_title{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 17px;
+    color: #756954;
 }
